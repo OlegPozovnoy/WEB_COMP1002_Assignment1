@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Lato);
+
+
+@charset "UTF-8"
+
+
+* {
+	
+	font-family: 'Dancing Script' , cursive;
+
+}
+
+:root{
+	--heading-color:DeepSkyBlue;/*white;*/
+	--paragraph-color:black;
+}
+
+
+body{
+		
+	background-image: url('../img/pexels-photo-164682.jpeg');
+	background-size:cover;	
+	min-width:100%;
+}
+
+
+body audio{
+	text-align:left;
+	
+}
+
+h1{
+	text-align:center;
+	color:var(--heading-color);
+	font-size: 40px;
+	line-height: 50px;
+	/*text-decoration: underline;*/
+	font-family: 'Times New Roman';/*'Dancing Script', bold;*/
+	text-shadow: 3px 3px 6px black;
+	}
+
+h2 {
+	text-align:center;
+	color:var(--heading-color);
+	font-size:32px;
+	text-transform:uppercase;
+	font-family: 'Times New Roman';/*'Dancing Script', bold;*/
+	text-shadow: 3px 3px 6px black;
+	}
+
+h3 {
+	text-align:center;	
+	color: var(--heading-color);
+	line-height:30px;
+	font-size:27px;
+	text-transform:capitalize;
+	font-family: 'Dancing Script', bold;
+	text-shadow: 2px 2px 4px black;	
+	}
+
+p{
+	text-align:justify;	
+	text-indent:36px;
+	color:var(--paragraph-color);
+	line-height:30px;
+	font-size:18px;
+	background-color:white;
+	border-radius:18px;
+	border: 2px solid black;
+	display:block;
+	font-family: 'Dancing Script' , cursive;
+	
+	width:40%;
+	min-width:300px;
+	margin-left : auto;
+	margin-right : auto;
+	padding:1%;
+
+
+}
+
+
+ul {
+	text-align:justify;	
+	background-color:white;
+	list-style: square outside;	
+	line-height: 30px;
+	font-size:18px;
+	border-radius:18px;
+	border: 2px solid black;
+	color: var(--paragraph-color);
+	font-family: 'Dancing Script', bold;
+	display:block ;
+
+	width:20%;	
+	margin-left: auto;
+	margin-right: auto;
+	min-width:150px;
+	max-width:200px;
+	
+
+	}
